@@ -1,0 +1,5 @@
+aws_access_key_id: AWS_ACCESS_ID
+aws_secret_access_key: AWS_ACCESS_KEY
+key_name: amazon_key_name
+groups: security_group
+
