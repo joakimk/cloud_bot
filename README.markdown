@@ -1,14 +1,9 @@
 An example of how to use [testbot](http://github.com/joakimk/testbot) with Amazon EC2 using [fog](https://github.com/geemus/fog).
 
-Preparing
-----
-
-1. Get an AWS account.
-2. Setup a testbot server.
-3. Customize the example for your environment.
-
 Usage
 ----
+
+Given that you have an AWS account, a testbot server and have customized the "example" configuration you run something like:
 
     require 'cloud_bot'
     server = CloudBot.create!("example")
