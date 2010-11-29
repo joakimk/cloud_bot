@@ -12,5 +12,5 @@ Given that you have an AWS account, a testbot server and have customized the "ex
 Benchmarks
 ----
 
-See [https://gist.github.com/720660](https://gist.github.com/720660])
+See [https://gist.github.com/720660](https://gist.github.com/720660)
 
