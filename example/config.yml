@@ -2,4 +2,17 @@ aws_access_key_id: AWS_ACCESS_ID
 aws_secret_access_key: AWS_ACCESS_KEY
 key_name: amazon_key_name
 groups: security_group
+flavor_id: c1.medium
+
+# 32 bit, ebs (use with t1.micro)
+#image_id: ami-480df921
+
+# 32 bit, instance
+image_id: ami-480df921
+
+# 64 bit, instance
+#image_id: ami-da0cf8b3
+
+# Has the cheapest instances
+region: us-east-1
 

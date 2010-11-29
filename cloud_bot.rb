@@ -8,10 +8,8 @@ class CloudBot
     hash = {}
     opts.each { |k, v| hash[k.to_sym] = v }
     opts = hash
-    opts[:image_id] ||= "ami-4a34013e" # Ubuntu 10.04 32 bit
-    opts[:region] ||= "eu-west-1"
-
-    create_opts = [ :key_name, :image_id, :groups ]
+    
+    create_opts = [ :key_name, :image_id, :groups, :flavor_id ]
     connection = Fog::AWS::Compute.new(opts.reject { |k, v| create_opts.include?(k) })
 
     server = connection.servers.create(opts)

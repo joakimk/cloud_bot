@@ -9,3 +9,8 @@ Given that you have an AWS account, a testbot server and have customized the "ex
     server = CloudBot.create!("example")
     # server.destroy
 
+Benchmarks
+----
+
+See [https://gist.github.com/720660](https://gist.github.com/720660])
+
