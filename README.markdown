@@ -1,3 +1,5 @@
+**This is a prototype**. Use [TestbotCloud](https://github.com/joakimk/testbot_cloud) instead.
+
 An example of how to use [testbot](http://github.com/joakimk/testbot) with Amazon EC2 using [fog](https://github.com/geemus/fog).
 
 Usage
